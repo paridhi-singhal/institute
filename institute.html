@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Institute Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #00264d;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+        }
+        .departments {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .department {
+            background-color: #e6f2ff;
+            border: 1px solid #004080;
+            border-radius: 10px;
+            width: 30%;
+            padding: 15px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #00264d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to JSSATEN</h1>
+        <p>Approved by All India Council for Technical Education (AICTE), New Delhi.<br>
+            UG programs are Accredited by National Board of Accreditation (NBA), New Delhi.<br>
+            Affiliated to Dr APJ Abdul Kalam Technical University, Uttar Pradesh, Lucknow</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#departments">Departments</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="content" id="home">
+        <h2>About Our Institute</h2>
+        <p>JSS Academy of Technical Education, Noida (JSSATEN) is one of the leading Technical Institutions in Delhi-NCR. Established in the year 1998 by JSS Mahavidyapeetha, Ghaziabad. The Institution has set benchmarks every year, and grown into an Institution of Excellence in Technical Education.</p>
+    </div>
+
+    <div class="content" id="departments">
+        <h2>Our Departments</h2>
+        <div class="departments">
+            <div class="department">
+                <h3>Department of Computer Science</h3>
+                <p>Specializing in software development, artificial intelligence, machine learning, and data science. Our department prepares students for cutting-edge careers in tech.</p>
+            </div>
+            <div class="department">
+                <h3>Department of Mechanical Engineering</h3>
+                <p>Focuses on mechanical design, automation, thermodynamics, and materials science. Our graduates excel in automotive, aerospace, and manufacturing industries.</p>
+            </div>
+            <div class="department">
+                <h3>Department of Civil Engineering</h3>
+                <p>Dedicated to infrastructure development, urban planning, and sustainable construction practices. We shape the cities of the future.</p>
+            </div>
+            <div class="department">
+                <h3>Department of Electrical Engineering</h3>
+                <p>Covers areas like electrical systems, renewable energy, telecommunications, and embedded systems. Our engineers are leaders in innovation.</p>
+            </div>
+            <div class="department">
+                <h3>Department of Biotechnology</h3>
+                <p>Blends biological sciences with technology to advance healthcare, agriculture, and environmental sustainability through innovative research.</p>
+            </div>
+            <div class="department">
+                <h3>Department of Business Administration</h3>
+                <p>Offers a comprehensive curriculum in management, marketing, finance, and entrepreneurship to develop future business leaders.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <p>Contact us: principal@jssaten.ac.in | Phone:0120-2401442, 2401449, 2400115</p>
+        <p>Address: JSS Academy of Technical Educaiton, Noida<br>
+
+            C-20/1, Sector-62, NOIDA<br>
+            
+            District Gautam Buddha Nagar<br>
+            Uttar Pradesh<br>
+            
+            INDIA-201301</p>
+    </footer>
+</body>
+</html>
